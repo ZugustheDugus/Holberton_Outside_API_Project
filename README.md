@@ -1,1 +1,1 @@
-# Holberton_Outside_API_Project
+This API feeds recommendations for national parks to users based on their nearest major city, by Hayden M. Cooper
