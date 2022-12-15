@@ -3,14 +3,18 @@ const app = express();
 const mongoose = require('mongoose')
 
 const User = require('./schema')
+const Park = require('./schema')
+const City = require('./schema')
 
 mongoose.connect("mongodb://localhost:27017")
 run()
 async function run() {
   const user = await User.create()
+  const park = await Park.create()
+  const city = await City.create()
   //const user = new User()
   //await user.save()
-  console.log(user)
+  console.log(user, park, city)
 }
 
 const users = [
