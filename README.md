@@ -1,1 +1,1 @@
-This API feeds recommendations for national parks to users based on their nearest major city, by Hayden M. Cooper
+This Project is a direct continuation of the Bob Ross "Joy of Painting" project for Holberton School
